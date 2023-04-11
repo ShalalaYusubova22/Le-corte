@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important; 
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+body{
+    max-width: 1920px;
+    margin: auto;
+    width: 100%;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    width: 100%;
+    margin: auto;
+
+}
+.nav{
+    background: url(../img/bg-header.png);
+ padding: 30px 0;
+background-position: center;
+background-size: cover;
+width: 100%;
+min-height: 900px;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+.nav-content a{
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.header-nav-list{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    border-left: none;
+    border-right: none;
+   max-width: 1140px;
+margin: 0 auto;
+}
+.header-nav-list li{
+    padding: 13px 101px 13px 116px;
+}
+
+.header-nav-list li:nth-child(2){
+    border-left: 1px solid white;
+    border-right:1px solid white;
+}
+
+.header-nav-list li:nth-child(4){
+    border-left: 1px solid white;
+}
+
+
+.header-nav-list a{
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 150%;
+
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 583px 0 150px;
+    gap: 20px;
+
+}
+ .btna  {
+background:  #99862A;
+padding: 15px 30px;
+width: 182px;
+color: #FFFFFF;
+}
+.btna button  a{
+    font-weight: 500;
+font-size: 16px;
+color:white ! important;
+
+}
+.first-content{
+    background: #282828;
+    padding: 100px 0;
+}
+.first-content-wrapper{
+    border: 3px solid #C4C4C4;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+.first-content-wrapper h1{
+    font-family: 'Playfair Display';
+font-size: 36px;
+color: #FFFFFF;
+text-align: center;
+margin: top 60px ;
+margin-bottom: 40px;
+}
+.mini{
+    border: 1px solid #FFFFFF;
+    width: 160px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.text{
+    font-size: 16px;
+ text-align: center;
+    color: #FFFFFF;
+    line-height: 150%;
+    width: 733px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.first-content-wrapper img{
+  margin: auto;
+   align-items: center;
+}
+.second-content{
+    background: #E6E3C4;
+    padding: 80px 0;
+}
+.second-wrapper-main{
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    display: flex;
+    padding: 60px 0;
+    gap: 125px;
+}
+ h3{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+ }
+ h2{
+    font-family: 'Playfair Display';
+font-size: 36px;
+color: #282828;
+width: 298px;
+margin-bottom: 30px;
+ }
+.mini-border{
+    border: 1px solid #282828;
+    width: 160px;
+ margin-bottom: 30px;
+}
+.text1{
+width: 445px;
+height: 84px;
+margin-bottom: 30px;
+}
+ .collection .btna{
+    width: 256px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}  
+
+
+.mini-photos{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.third-content{
+    background: #282828;
+    padding: 100px 0;
+}
+.third-content-wrapper h1{
+    font-family: 'Playfair Display';
+font-size: 36px;
+color: #FFFFFF;
+text-align: center;
+margin: top 60px ;
+margin-bottom: 40px; 
+}
+
+
+.table-wine tr{
+border-left: #E6E3C4;
+}
+.table-wine thead{
+    border-top:#E6E3C4 ;
+}
+
+.table-wine thead tr th:nth-child(2){
+    border-right: #E6E3C4;
+}
+
+.table-wine td{
+    border-right: #E6E3C4;
+}
+
+#table-bottom{
+    border-bottom: #E6E3C4;
+}
+.table-wine p{
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    
+    color: #282828;
+}
+
+.divm{
+    height: 3px;
+    width: 116px;
+    background-color:#C4C4C4; ;
+}
+.third-wrapper-top{
+    display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.third-wrapper-top h1{
+    margin: auto;
+    white-space: nowrap;
+}
+
+.third-wrapper-top  img:first-child{
+   position: relative;
+   top: 30px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+    max-width: 540px;
+    margin: 0 auto;
+}
+.name{
+    display: flex;
+    gap: 80px;
+   
+}
+.contact input{
+    background: #282828;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    border-bottom:1px  solid white ;
+    padding-bottom: 10px;
+    flex: 1;
+}
+.third-content-wrapper p{
+    width: 539px;
+}
+.third-content-wrapper button{
+    font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+background: #282828;
+border: 1px  solid white;
+padding: 15px 0;
+}
+
+
+.divider{
+    border: 1px solid white;
+    border-top: none;
+    max-width: 990px;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+
+
+  
+.footer{
+    background: #998431;
+    padding: 50px 0;
+}
+.footer-nav-list-first{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    border-left: none;
+    border-right: none;
+   max-width: 1140px;
+margin: 0 auto;
+}
+.footer-nav-list-first li{
+   padding: 13px 0;
+}
+
+
+
+
+.footer-nav-list-first a{
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 150%;
+    text-decoration: none;
+
+}
+
+
+
+.footer-nav-list-second{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    border-left: none;
+    border-right: none;
+   max-width: 1140px;
+margin: 0 auto;
+}
+.footer-nav-list-second li{
+   padding: 13px 60px;
+}
+
+
+.footer-nav-list-second li:nth-child(2){
+    border-left: 1px solid white;
+    border-right:1px solid white;
+}
+
+.footer-nav-list-second li:nth-child(4){
+    border-left: 1px solid white;
+}
+
+
+.footer-nav-list-second a{
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 150%;
+   
+
+}
+.social{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
